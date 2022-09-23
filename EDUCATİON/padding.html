@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PADDİNG</title>
+
+    <style>
+        .kutu {
+
+            height: 200px;
+
+
+        }
+
+        #kutu1 {
+            background-color: lightcoral;
+            padding: 50px;
+        }
+
+        #kutu2 {
+            background-color: lightgreen;
+
+            padding: 50px 70px;
+            /* üstten-altan 50 ve sagdan-soldan 70px bosluk demek bu*/
+        }
+
+        #kutu3 {
+            background-color: red;
+
+        }
+
+        span {
+
+            background: aqua;
+            display: inline-block;
+            padding: 20px; /* nesne içindeki boyutları etkiler*/
+            margin: 18px;
+        }
+
+        /* 
+            
+           PADDİNG--> nesne içindeki nesnenin arasındaki boslugudur
+           
+                    içerdenbosluk verince ama dış nesnenin de boyutu artar
+                padding: 50px 70px;
+           /* üstten-altan 50 ve sagdan-soldan 70px bosluk demek bu*/
+        */
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="kutu" id="kutu1">KUTU 1</div>
+    <div class="kutu" id="kutu2">KUTU 2</div>
+    <div class="kutu" id="kutu3">KUTU 3</div>
+
+    <span>Lorem ipsum dolor sit amet.</span>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+    <span>Loremipsum dolor sit amet consectetur.</span>
+
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POSİTİOn</title>
+
+    <style>
+        .kutu {
+            width: 150px;
+            height: 200px;
+           
+        }
+
+        #kutu1 {
+            background-color: lightcoral;
+            position: fixed;
+            /* sayfada yeri değişmez insen de çıksan da*/
+            bottom: 0;
+            right: 0;
+        }
+
+        #kutu2 {
+            background-color: lightgreen;
+            position: absolute;
+            top: 300px;
+            left: 60px;
+        }
+
+        #kutu3 {
+            background-color: red;
+            position: sticky;
+            top: 0;
+        }
+
+        /* 
+            
+            absolute --> sayfanın en üstünden itibaren bosluk bırakır
+            relative --> kutunun baslangıc yerinden itibaren baz alır
+            fixed --> sayfada scroll oldugunda bile bu özel o nesneyi tasır
+            sticky --> sayfada nereye gidersen git o yapısır senle gelir
+
+            */
+    </style>
+
+
+</head>
+
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eum dignissimos, nulla, commodi officia fugit
+        sint voluptatibus officiis minus explicabo dolores quaerat ducimus, blanditiis iusto incidunt esse sit?
+        Doloremque, ullam.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eum dignissimos, nulla, commodi officia fugit
+            sint voluptatibus officiis minus explicabo dolores quaerat ducimus, blanditiis iusto incidunt esse sit?
+            Doloremque, ullam.</p>
+
+    <div class="kutu" id="kutu1">KUTU 1</div>
+    <div class="kutu" id="kutu2">KUTU 2</div>
+    <div class="kutu" id="kutu3">KUTU 3</div>
+
+    <div style="height: 3000px;"></div>
+
+</body>
+
+</html>

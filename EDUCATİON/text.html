@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT ve TEXT HİZALAMA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Qwitcher+Grypen&display=swap"
+        rel="stylesheet">
+
+    <style>
+        div {
+            width: 400px;
+            height: 300px;
+            border-color: red;
+            line-height: 200%;
+            border: 8px groove red;
+            border-radius: 5px;
+            background-color: antiquewhite;
+
+
+        }
+
+        div p {
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 3px;
+            /* harfler arası bosluk*/
+            word-spacing: 4px;
+            /* kelimeler arası bosluk*/
+            font-family: 'Alumni Sans Collegiate One', sans-serif;
+            font-family: 'Qwitcher Grypen', cursive;
+            font: bold;
+
+        }
+
+        h3 {
+            text-transform: uppercase;
+        }
+
+        a {
+            color: cadetblue;
+            font: bold;
+            text-decoration: none;
+            background-color: lightgreen;
+
+            font-family: 'Alumni Sans Collegiate One', sans-serif;
+        }
+
+        /* TEXT HİZALAMA*/
+
+        h2 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: uppercase;
+        }
+
+        #paragraf1 {
+            text-align: right;
+
+        }
+
+        #paragraf2 {
+            text-align: center;
+        }
+
+        #paragraf3 {
+            text-align: left;
+            border: 3px solid gray;
+            padding: 10px;
+
+            column-count: 3;
+            /* metni 2 sutuna boler*/
+            column-rule: 4px groove yellow;
+        }
+
+        /*
+        
+        -webkit-column böyle olunca her tarayıfıda çalısır
+        -moz- bu da mozilla için kullanılır
+        
+        */
+
+        #paragraf4{
+            text-align: justify;
+            text-indent: 50px; /* oaragraf basındaki boslugu secersin*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <h3>Lorem, ipsum dolor.</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde expedita dignissimos reprehenderit
+                delectus
+                cum
+                corrupti quo <span><a class="link" href="#"> provident</a> </span> maiores dolor officiis.</p>
+
+    </div>
+
+    <h2>Lorem, ipsum.</h2>
+
+    <p id="paragraf1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias voluptatum voluptas
+        odit ipsum impedit
+        sequi perferendis? Tempore tempora ipsum est quos ipsa obcaecati! Omnis, vel quae nemo voluptatem repellendus
+        eligendi illo quia architecto officia, autem, officiis rerum nobis corporis!</p>
+
+    <p id="paragraf2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias voluptatum voluptas
+        odit ipsum impedit
+        sequi perferendis? Tempore tempora ipsum est quos ipsa obcaecati! Omnis, vel quae nemo voluptatem repellendus
+        eligendi illo quia architecto officia, autem, officiis rerum nobis corporis!</p>
+    <p id="paragraf3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias voluptatum voluptas
+        odit ipsum impedit
+        sequi perferendis? Tempore tempora ipsum est quos ipsa obcaecati! Omnis, vel quae nemo voluptatem repellendus
+        eligendi illo quia architecto officia, autem, officiis rerum nobis corporis!</p>
+
+    <p id="paragraf4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias voluptatum voluptas
+        odit ipsum impedit
+        sequi perferendis? Tempore tempora ipsum est quos ipsa obcaecati! Omnis, vel quae nemo voluptatem repellendus
+        eligendi illo quia architecto officia, autem, officiis rerum nobis corporis!</p>
+
+
+
+
+</body>
+
+</html>
