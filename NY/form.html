@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORM ETİKETİ</title>
+</head>
+<body>
+
+	<form> 
+		<label>İsim soyisim</label> <br>
+		<input type="text" name="zaman" placeholder="isim gir"> <br> <br> <!-- İNLİNEDİR -->
+		<label>E-mail</label> <br>
+		<input type="email" name="" placeholder="E-mail gir">
+		<br><br>
+		<label>Şifre gir</label>
+		<br>
+		<input type="password" placeholder="Şifre" name="">
+		<!-- NAME , bir yere cagırmak için bu adresi almamız lazım -->
+		<br><br>
+		<label>Dosye Seç</label>
+		<br>
+		<input type="file" name="">
+		<br><br>
+		<label>Rakamlar</label>
+		<br>
+		<input type="number" name="">
+		<br><br>
+		<label>Tarih</label>
+		<br>
+		<input type="date" name="">
+		<br><br>
+		<label>Ay Seç</label>
+		<br>
+		<input type="month" name="">
+				<br><br>
+		<label>Zaman Seç</label>
+		<br>
+		<input type="time" name="">
+				<br><br>
+		<label>Kutu Seç</label>
+		<br>
+		<input type="checkbox" name="">
+		<input type="checkbox" name="">
+		<!-- check, birden fazla seçilebilir -->
+		<br><br>
+		<label>Renk Seç</label>
+		<br>
+		<input type="color" name="">
+
+						<br><br>
+		<label>Aralık Seç</label>
+		<br>
+		<input type="range" max="10" min="0" name="">
+		<!-- Gözükmez sayı olarak ama aralık içini oto böler -->
+						<br><br>
+		<label>Sıfırlama</label>
+		<br>
+		<input type="reset" value="SIFIRLA KNK" name="">
+		<!-- value , KUTU içindeki ismi bleirler -->
+
+						<br><br>
+		<label>Cinsiyet Seç</label>
+		<br>
+		<label>Erkek</label>
+		<input type="radio" name="cinsiyet"> 
+		<label>Kadın</label>
+		<input type="radio" name="cinsiyet">
+		<!-- RADİO , bir tane seçtirir ama name AYNI olcak -->
+
+		<br><br>
+		<label>Gönderme Butonu</label>
+		<br>
+		<input type="submit" name=""> 
+		<!-- GÖNDEr , butonu ekler -->
+
+		<br><br>
+		<label>SEÇİM YAP</label>
+		<br>
+		<select>
+			<option>Ankara</option>
+			<option>İstanbul</option>
+			<option>İzmir</option>
+			<option>Antep</option>
+			<option>Bursa</option>
+			<option>Konya</option>
+		</select>
+		<!-- SELECT, seçim şablonu olusturur 
+			OPTİON , Seçim içine eklenecekleri ekletir-->
+
+
+	</form>
+	<!-- FORM , sitede birilerinin bir şeyler girmesini sağlar -->
+	<!-- PLACEHOLDER , kutu içinde silik şekilde bilgi yazar -->
+	<!-- input, girdi girmemizi sağlar -->
+	<!-- type , ne istediğimizi gösterir tarih,zaman,chechbox felan -->
+	<hr><hr><hr><hr><hr><hr>
+
+	<form>
+		<fieldset>
+			<legend>Tanışma Formu</legend>
+			<label>İsim - Soyisim</label>
+			<br>
+			<input type="text" name="">
+			<br>
+			<label>Yaşadığımız Şehir</label>
+			<br>
+			<select>
+				<option>İstanbul</option>
+				<option>Ankara</option>
+				<option>İzmir</option>
+			</select>
+		</fieldset>
+	</form>
+
+	<!-- FİELTSET , bize formda ÇERÇEVE getirir
+		LEGEND , çerçeve içine BASLIK ekler -->
+
+</body>
+</html>
