@@ -1,0 +1,58 @@
+************************************************************
+BİÇİMLENDİRME İÇİN KULLANDIĞIMIZ HTML KODLARI VE ANLAMLARI *
+************************************************************
+
+<abbr>	Yazılan kısaltmaların açılımlarını belirtmek için kullanılır. Örneğin Html kısaltmasının üzerine fare ile gelindiğinde açılımının Hyper Text Markup Language olduğunu gösterebiliriz.
+
+<address> Html belgelerinde adres ve iletişim bilgilerini yazarken kullanılır. Yazıları italik yapar.
+
+<b>	
+Yazıları koyulaştırmak (kalınlaştırmak) için kullanılır.
+
+<b> ve <strong> etiketleri aynı işlevi gerçekleştiriyor. Aralarındaki fark ise şudur:
+
+Daha önemli içerikleri arama motorlarına belirtmek için strong etiketi kullanılır. Yani görünüm olarak bir farkları olmasada anlamsal olarak farklıdırlar.
+
+<bdo>	Yazıyı tersten yazmak için kullanılır.
+
+<blockquote>	Başka kaynaklardan uzun alıntılar yaparken kullanılır. Alıntı yapılan yazıya sağdan ve soldan 40px margin değeri uygulanır. Yani yazı 40px içeri alınır.
+
+<cite>	Alıntı yapıldığını belirtmek için kullanılır. Bu etiket içerisindeki yazılar italik olarak görüntülenir.
+
+<code>	Yazıları bir bilgisayar kodu parçası görünümünde yapmak için kullanılır.
+
+<del>	Yazıların üstünü çizmek için kullanılır.
+
+<dfn>	Tanımları belirtmek için kullanılır.
+
+<em>	Yazıları italik yapmak için kullanılır.
+
+<i> ve <em> etiketleri aynı işlevi gerçekleştiriyor. Aralarındaki fark ise şudur:
+
+Daha önemli içerikleri arama motorlarına belirtmek için em etiketi kullanılır. Yani görünüm olarak bir farkları olmasada anlamsal olarak farklıdırlar.
+
+<i>	Yazıları italik yapmak için kullanılır.
+
+<ins>	Yazıların altını çizmek için kullanılır.
+
+<kbd>	Yazıları klavye formatında göstermek için kullanılır.
+
+<mark>	Vurgulanmak istenen yazılar için kullanılır. Seçilen yazının arkaplan rengini sarı yapar.
+
+<pre>	Biçimlendirilmiş yazıları olduğu gibi göstermek için kullanılır.
+
+<q>	Başka kaynaklardan kısa alıntılar yaparken kullanılır. Alıntı yapılan yazıyı çift tırnak (” “) arasına alır.
+
+<samp>	Yazıların bilgisayar çıktısı biçiminde olmasını sağlar.
+
+<small>	Yazının boyutunu küçültmek için kullanılır.
+
+<strong>	Yazıları koyulaştırmak (kalınlaştırmak) için kullanılır.
+
+<sub>	Yanındaki yazının biraz altında olmasını istediğimiz durumlarda kullanılır.
+
+<sup>	Yanındaki yazının biraz üstünde olmasını istediğimiz durumlarda kullanılır.
+
+<u>	Yazıların altını çizmek için kullanılır.
+
+<var>	Matematiksel değişkenleri belirtmek için kullanılır.

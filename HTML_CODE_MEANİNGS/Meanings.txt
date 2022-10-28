@@ -1,0 +1,61 @@
+<!DOCTYPE>	
+Dökümanın türünü belirtir. Sayfanın en üstünde yazılır. Tarayıcıların sayfayı doğru görüntülemesini sağlar.
+
+<html>	Tüm Html etiketlerini kapsar.
+
+<head>	Sayfa ile ilgili bazı bilgilerin (meta bilgileri, sayfa başlığı vb..) tanımlandığı etikettir.
+
+<title>	Sayfa başlığının verildiği etikettir.
+
+<body>	Sayfa içeriklerinin yazıldığı etikettir. Tarayıcılar sadece buradaki içeriği bize gösterirler.
+
+<script>	Javascript kodlarının yazıldığı etikettir.
+
+<style>	Css kodlarının yazıldığı etikettir.
+
+<meta>	
+Meta etiketleri (tagları) ile arama motorlarının web sitemiz ile ilgili bilgi edinmesini sağlayabiliriz. Diğer bir deyişle Html sayfalarımızda tamamlayıcı bilgileri tanımlayabiliriz.
+
+Bu tamamlayıcı bilgiler nelerdir?
+
+Örneğin sitenin başlığı, site ile ilgili açıklama bilgileri, sitenin sahibi, sitenin yazarı, kullanacağımız karakter kodlama türü gibi bilgileri meta tagları ile tanımlıyoruz. 
+
+<link>	Dışarıdan bir dosyayı sayfamıza eklemek (referans vermek) için kullanılır.
+
+<h1> – <h6>	
+Başlık eklemek için kullanılır. Başlık etiketleri h1’den başlayıp h6’ya kadar devam eder. Aralarında 2 fark vardır:
+
+Birincisi, en büyük boyutlu olan h1 dir ve h6 ya doğru yazı boyutu küçülür. Yani en küçük yazı boyutu olan h6 dır. İkinci fark ise bunların Seo açısından önem durumlarıdır.
+
+<p>	
+Html sayfalarındaki yazılarımızı paragraflara ayırmak için kullanılır.
+
+P etiketini kullanırsanız kullanıcı dostu bir tasarım yapmış olursunuz. Böylece tasarımlarınızdaki yazıların okunabilirliği de artar. P etiketi kullanmadan uzun yazılar yazarsanız okuması zor olacağı için sitenizi ziyaret eden kişiler çok kısa sürede sitenizi terk edecektir.
+
+<a>	
+Link eklemek için kullanılır. Örneğin bir yazıya link verme, bir resme link verme, bir dosyayı link yapma, bir video linki oluşturma, indirme linki oluşturma, sayfalar arası veya sayfa içi bağlantı oluşturma vb.. bir çok durumda a etiketini kullanma ihtiyacı ortaya çıkıyor.
+
+En basit haliyle 2 tanımlama yapmamız gerekiyor. Bunlardan birincisi, linkin görünürdeki yazısı yani kullanıcının görmüş olduğu yazı. İkincisi ise bu yazıya tıklandığında yönlendireceğimiz hedef adres.
+
+Kullanımı şu şekildedir:
+
+<a href=“Hedef URL adresi”>linkin yazısı</a>
+
+<br>	Alt satıra geçmek için kullanılır. Yani br etiketinden sonra gelen kodun bir alt satırdan devam etmesini sağlar.
+
+<hr>	
+Html sayfalarımızda içerikleri birbirinden ayırmak için yatay çizgi oluşturmamızı sağlar.
+
+Html sayfalarınızda dikey çizgi oluşturmak istiyorsanız Html ve Css ile Dikey Çizgi Nasıl Yapılır? yazımı okuyabilirsiniz.
+
+<div>	
+Html kodlarını kapsayıcı bir etiket içerisine almak için kullanılır.
+
+Html div etiketinin özel bir anlamı yoktur. Div etiketini kullandığımızda sayfamızın tarayıcıdaki görüntüsünde herhangi bir değişiklik olmaz. Div etiketini kullanırken asıl amacımız diğer Html kod parçalarını belirli gruplara ayırarak kod düzenini sağlamaktır. Aynı zamanda bu şekilde yapılan bir kodlama, Css kullanımında da bize fayda sağlayacaktır. Çünkü div içerisine aldığımız tüm Html etiketlerine toplu bir şekilde Css kodu uygulayabilir ve yönetimi kolaylaştırabiliriz. 
+
+<span>	
+Html kodlarını kapsayıcı bir etiket içerisine almak için kullanılır.
+
+Span etiketi kullandığımızda da tıpkı div etiketi gibi sayfanın tarayıcıdaki görüntüsünde herhangi bir değişiklik olmaz. Span etiketini genelde inline (satır içi) öğelere Css kodu uygulamak için kullanıyoruz.
+
+<!–…–>	Html sayfalarımıza yorum satırı eklemek için kullanılır.
