@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+
+	<!-- kodlar görünmez , burda düzenlemeler yaparız -->
+
+	<meta charset="utf-8"> <!--TARAYICI içindir META etiketi , daha saglılı okusun diye -->
+	<!-- utf-8 sayfa düzen saglar -->
+	<!-- Ne kadar META eklersen o kadar İYİ-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- 
+	initial-scale=1 BURASI SAYFANIN KAPLADIGI ALANI GÖSTERİR
+	 -->
+
+	 <meta http-equiv="refresh" content="20">
+	 <!-- sayfa 20 saniyede bir yenilenecek demek -->
+	 
+	<title> İlk Ders Sayfa</title>
+
+	<style type="">
+		
+		.üst{
+			color: lightblue;
+			background: lightyellow;
+			font-family: sans-serif;
+		}
+
+		body {
+			/*background-image: url('img/oda.jpg') ;*/
+		}
+		h1,h2,h3,h4,h5 {
+			text-align: center;
+			background-color: yellow;
+			color: #333;
+		}
+
+		.orta .myliste ul{
+			/*float: left;*/
+			padding-right: 15px;
+			list-style-type: circle;
+		}
+		.myliste ul label{
+			border: solid;
+			border-color: lightblue;
+			background-color: lightyellow;
+			color: blue;
+		}
+
+		.orta .orta_resim {
+			
+			margin-top: 10px;
+			;
+
+		}
+
+		.orta_resim img{
+			width: 200px;
+			height: 200px;
+		}
+		.orta_resim ul{
+			list-style-type: none;
+		}
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<h1>BENİM SİTEM</h1>
+
+<div class="üst">
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div>
+
+<h2 >Bilgilerim</h2>
+
+<div class="orta">
+	<p><strong> Kendim hakkında kişisel gelişimim konusunda neleri biliyorum onları göreceğiz	</strong></p>
+
+	<div class="myliste">
+	<ul>
+		<label>Yaptığım Sporlar</label>
+		<br>
+		<li>Futbol</li>
+		<li>Boks</li>
+		<li>Fitness</li>
+		<li>Yüzme</li>
+	</ul>
+	
+
+	<ul>
+		<label>Okuduğum Okullar</label>
+		<br>
+		<li>Selçuklu i.o</li>
+		<li>Ahmet Vefik Paşa o.o</li>
+		<li>Sancaktepe Lisesi</li>
+		<li>Çanakya Lisesi</li>
+		<li>Bülent Ecevit Üniversitesi</li>
+	</ul>
+
+	<ul>
+		<label>Bildiğim Programlar</label>
+		<br>
+		<li>C programlama</li>
+		<li>C# programlama</li>
+		<li>Python programlama</li>
+		<li>Java programlama</li>
+	</ul>
+	<hr>
+	</div>
+
+		<div class="orta_resim">
+		
+		<ul>
+			<li>
+				<img src="img/c.jpg">
+			</li>
+			<li>
+				<img src="img/csharp1.jpg">
+			</li>
+			<li>
+				<img src="img/futbol.jpg">
+			</li>
+		</ul>
+
+
+		
+	</div>
+
+</div>
+<hr>
+	<h2>SEVDAMIZ</h2>
+	<div class="fener">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fvws8yZA3x0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<br>
+		<audio controls autoplay muted>
+			<source src="img/muzik.mp3" type="audio/mp3">
+		</audio>
+	</div>
+
+	<hr>
+
+	<div class="alt_form">
+		<h2>Ziyaretçi Bilgini Gir</h2>
+		<form action="mailto:iso.reus@gmail.com" method="post">
+			<fieldset>
+			<legend>ZİYARETÇİ</legend>	
+			
+			<label>İsim giriniz</label>
+			<input type="text" name="">
+			<br>
+			<label>Soyisim gir</label>
+			<input type="text" name="">
+			<br>
+			<label>Dogum  Tarihi</label>
+			<input type="date" name="">
+			<br>
+			<label>Burcunu gir</label>
+			<select>
+				<option>Aslan</option>
+				<option>Kaplan</option>
+				<option>Kova</option>
+				<option>Yay</option>
+				<option>Boğa</option>
+				<option>Oğlak</option>
+			</select>
+			<br>
+			<label>Neden Siteye Bakıyorsun</label>
+			<select >
+				<option disabled>-------</option>
+				<option>Seni Merak ediyorum</option>
+				<option>Öylesine</option>
+				<option>Örnek site inceliyorum</option>
+			</select>
+			<br>
+			<label>Saat kaç</label>
+			<input type="time" name="">
+			<br><br>
+			<input type="submit" value="İso'ya Gönder" name="">
+			<br><br>
+			<input type="file" name="">
+			</fieldset>
+		</form>
+	</div>
+
+
+</body>
+</html>
