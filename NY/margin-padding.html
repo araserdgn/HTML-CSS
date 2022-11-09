@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Margin ve Padding</title>
+
+	<style >
+		.margin, .ikinci {
+			float: left;
+			margin: 20px;
+		}
+		.margin {
+			width: 320px;
+			height: 250px;
+			border: 2px solid blue;
+			
+			border-radius: 5px;
+			padding: 50px;
+			box-sizing: border-box;
+			/*Paddingleri sadece margin sınıfı uzerinden yapar*/
+		}
+
+		.padding {
+			width: 200px;
+			height: 150px;
+			border-radius: 5px;
+			border: 6px dashed red;
+			padding: 10px;
+		}
+
+		.ikinci {
+			width: 320px;
+			height: 250px;
+			border: 2px solid black;
+			/*margin: 50px 20px;*/
+
+			/*Nesneler arası bosluk*/
+		}
+
+		.inner-ikinci {
+			width: 250px;
+			height: 100px;
+			border: 2px solid red;
+		}
+
+	</style>
+</head>
+<body>
+
+	<!-- Margin: Kendisi ile Etrafındaki ile arasındaki boslugu belirleriz-->
+
+	<!-- Padding: İçerde kalan boşlugu duızenler  -->
+
+	<div class="margin">
+		<div class="padding">
+			<p>Merhaab ben İSO</p>
+		</div>
+	</div>
+
+	<div class="ikinci">
+		<div class="inner-ikinci">
+			
+		</div>
+	</div>
+
+</body>
+</html>
