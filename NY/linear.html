@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            width: 100%;
+            height: 500px;
+            background-image: linear-gradient(to right bottom, rgba(0, 0, 255, 0.123),rgba(255, 0, 0, 0.622)), url(123.jpg);
+            /* İKİ renk arası GEÇİŞLERİ sağlar , BİRSÜRÜ renk EKLEYENBİLİrsn*/
+            /* ÇAPRAZ gidiyor */
+            background-position: center;
+            background-size: cover;
+            background-size:400% ;
+            transition: 0.9s;
+            /*hover özelliğinin çalışma süresi 0.8sn
+             GEÇİŞ SÜRESİDİR */
+
+            
+        }
+
+        .container:hover{
+            background-position: right;
+            background-position: left;
+            /* RESMİN sağını gsöterir */
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+    </div>
+    
+</body>
+</html>
