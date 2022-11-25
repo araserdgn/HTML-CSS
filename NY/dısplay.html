@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY</title>
+
+    <style>
+        p {
+            /* display: inline; */
+            /* Block olan P elementi inline oldu */
+            display: inline-block;
+            /* margin ve height VEREBİLİYORUZ onu saglar */
+            margin: 20px;
+            background-color: aqua;
+            height: 100px;
+            /* İNLİNE margin ve height VEREMEYİZ */
+        }
+        small {
+            display: block;
+        }
+        /* inline kendi satırında kalır yukarı asagı oynamaz */
+        /* inline-block ise yukar ıasagı özellik verebiliriz */
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!-- alt alta, block -->
+
+    <small>Lorem ipsum dolor sit amet.</small>
+    <small>Lorem ipsum dolor sit amet.</small>
+    <!-- yan ayan yazcak , inlice -->
+</body>
+</html>
