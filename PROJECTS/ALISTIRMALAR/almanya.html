@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almanya Ligi</title>
+    <link rel="icon" type="image/x-icon" href="image/almanya.png">
+
+    <style>
+
+      * {
+        box-sizing: border-box;
+      }
+      body{
+        background-color: #220202;
+        margin: 0;
+      }
+
+      .container {
+       
+        width: 90%;     
+        height: 1500px; 
+        margin: auto;   
+        border-radius: 20px;
+      }
+
+      .sınıfiçi {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+      }
+
+      ul li {
+        display: flex;
+        padding: 10px 0px;
+        margin-right: 50px;
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        text-shadow: 5px 5px 10px black;
+      
+      }
+      ul li:hover {
+        transform: scale(1.5);
+      }
+    
+       img {
+            width: 80%;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            
+      }
+      ul li img {
+        width: 40px;
+        height: 50px;
+      }
+      ul li img:hover {
+        transform: scale(1.5);
+      } 
+      h2 {
+        text-align: center;
+        text-decoration: underline;
+        text-transform: uppercase;
+      }
+      p {
+        color: rgb(1, 8, 10);
+        text-shadow: 5px 5px 15px black;
+        text-align: center;
+        
+      }
+      .image {
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 50px;
+      }
+
+      .don {
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        border: 2px solid white;
+        height: 40px;
+        width: 80px;
+        background-color: rgba(0, 0, 0, 0.69);
+        text-align: center;
+        padding-top: 10px;
+      }
+      .don:hover {
+        background-color: rgba(0, 255, 255, 0.652);
+        transform: scale(1.2);
+        border: 2px black solid;
+      }
+      .don a {
+        color: red;
+        text-shadow: 5px 5px 10px black;
+      }
+
+      /* dortmund kısmı */
+      .dortmund {
+        background-image: linear-gradient(
+          to right top, yellow,black,yellow
+          
+        );
+        
+      }
+      .dortmund-yazi {
+        background-image: linear-gradient(
+          to right top, yellow,black,yellow
+          
+        );
+        padding: 35px 30px;
+        font-size: x-large;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+        text-shadow: 5px 5px 15px black;
+        text-align: center;
+
+      }
+      .dortmund-yazi p {
+        text-align: center;
+        padding-top: 30px;
+        color: aliceblue;
+      }
+      .dortmund p,li {
+        color: aliceblue;
+      }
+
+
+    
+      /* Bayern YERİ */
+
+      .bayern {
+        background-image: linear-gradient(
+          to right top,
+          rgba(255, 0, 0, 0.659),rgba(238, 255, 0, 0.56),
+          white,
+          rgba(242, 255, 0, 0.973),rgb(255, 0, 0)
+        );
+        margin-top: 30px;
+      }
+   
+      .bayern-yazi {
+        background-image: linear-gradient(
+          to right top,
+          rgba(255, 0, 0, 0.659),rgba(238, 255, 0, 0.56),
+          white,
+          rgba(242, 255, 0, 0.973),rgb(255, 0, 0)
+        );
+        padding: 180px 35px 35px;
+        border-radius: 20px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+        
+      }
+      .bayern-yazi p {
+        text-align: center;
+        font-size: xx-large;
+        margin-top: 30px;
+        text-shadow: 5px 5px 10px black;
+        margin-bottom: 60px;
+        
+      }
+      .bayern-kadro li{
+        color: rgb(0, 2, 3);
+        text-shadow: 5px 5px 10px black;
+      }
+       
+    </style>
+</head>
+<body>
+      <div class="container">
+        <div class="dortmund sınıfiçi">
+          <div class="dortmund-yazi">
+            <p>D</p>
+            <p>O</p>
+            <p>R</p>
+            <p>T</p>
+            <p>M</p>
+            <p>U</p>
+            <p>N</p>
+            <p>D</p>
+            
+          </div>
+  
+          <div class="image">
+            <img src="image/dortmund-logo.png" alt="Resim açılmıyor" />
+            <h2>Dortmund Tarihçesi</h2>
+            <p>
+              Borussia Dortmund futbol takımının, Almanya'da 
+              8 Bundesliga şampiyonluğu, 5 DFB-Pokal şampiyonluğu
+               ve 6 DFL-Supercup şampiyonluğu gibi başarıları 
+               bulunmaktadır. Ayrıca; Avrupa'da UEFA Şampiyonlar Ligi'nde iki kez final oynamış, bunlardan birinde kupayı kaldırmış, diğerinde ise mağlup olmuştur. Bir kere de UEFA Kupa Galipleri Kupası'nı kazanmıştır. 1966 yılında kazandığı bu başarıyla, Avrupa'da kupa kaldıran ilk futbol takımı olmuştur. Bu başarılarla Dortmund, Almanya futbol tarihindeki en başarılı kulüplerden biridir. Ezeli rakipleri Schalke 04'tür.
+            </p>
+          </div>
+  
+          <div class="liv-kadro">
+            <h2>KADRO</h2>
+            <ul>
+              <li>
+                Gregor Kobel
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                Mats Hummels
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                Niklas Süle
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>Jose Guerreiro <span><img src="image/dortmund.png" alt="" /></span></li>
+              <li>
+                Thomas Meunier
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                Salih Özcan <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                Mahmoud Dahoud
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                
+                Julian Brandt
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                Jude Bellingham
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                Moukoko <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+              <li>
+                Donyell Malen
+                <span><img src="image/dortmund.png" alt="" /></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+       
+        <div class="bayern sınıfiçi">
+          <div class="bayern-yazi">
+            <p>L</p>
+            <p>E</p>
+            <p>V</p>
+            <p>E</p>
+            <p>R</p>
+            <p>K</p>
+            <p>U</p>
+            <P>S</P>
+            <P>E</P>
+            <P>N</P>
+            
+          </div>
+  
+          <div class="image">
+            <img src="image/bayern-logo.png" alt="Resim açılmıyor" />
+            <h2>arsenal Tarihçesi</h2>
+            <p>
+              1904 yılında ünlü ilaç firması Bayer tarafından kurulmuştur. Buna rağmen futbol takımının Avrupa kupalarındaki ilk başarısı 1987-1988 sezonunda İspanyol ekibi Espanyol karşısında UEFA Kupası'nı almasıdır. Bunun dışındaki bir diğer Avrupa kupası başarısı ise 2001-2002 sezonunda sürpriz bir şekilde UEFA Şampiyonlar Ligi finaline çıkmasıdır. Ancak finalde Real Madrid'e karşı alınan 2-1'lik skorla kupayı ellerinden kaçırmışlardır.
+            </p>
+          </div>
+  
+          <div class="bayern-kadro">
+            <ul>
+              <h2>KADRO</h2>
+              <ul>
+                <li>
+                  Lukas Hradecky
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Jonathan Tah
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Odilon Kossounou
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>Daley Sinkgraven <img src="image/bayern.png" alt="" /></li>
+                <li>
+                  RFosu-Mensah
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Kerem Demirbay <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Nadiem Amiri
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Robert Andrich
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Hudson-Odoi
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Moussa Diaby <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+                <li>
+                  Patrik Schick
+                  <span><img src="image/bayern.png" alt="" /></span>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="don">
+          <a href="alıstırma.html">Geri Dön</a>
+        </div>
+      </div>
+    </body>
+</html>

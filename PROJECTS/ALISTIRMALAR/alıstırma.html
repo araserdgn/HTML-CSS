@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkiye Ligi</title>
+    <link rel="icon" type="image/x-icon" href="image/turkey.png">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    
+        body {
+            background-image: linear-gradient(#00003e,#005470,#162028);
+        }
+        .container {
+            background-image: linear-gradient(#00003e,#005470,#162028);
+            width: 90%;
+            border-radius: 20px;
+            height: 2720px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            text-shadow: 2px 3px 15px white;
+            border: 2px groove black;
+            color: #f9d253;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #1a1a25;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        img {
+            width: 50%;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+        }
+        h3,p {
+            color: #f3f4fb;
+            text-transform: uppercase;
+            text-shadow: 5px 5px 15px black;
+            text-align: center;
+            font-size: larger;
+        }
+       
+        ul {
+            margin-right: 20px;
+            width: 100%;
+        }
+        ul li {
+            display: flex;
+            padding: 10px;
+            color: #f3f4fb;
+            font-size: x-large;
+            text-shadow: 4px 4px 15px black;
+        }
+        ul li img {
+            width: 25px;
+            height: 25px;
+            
+        }
+         h2 {
+            color: white;
+            text-align: right;
+            margin-right: 45px;
+        }
+     
+
+        /* FENERBAHCE KISMI */
+
+        .fenerbahce {
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(to right bottom ,rgba(43, 3, 245, 0.793),rgba(255, 255, 0, 0.695),rgba(7, 7, 243, 0.722));
+            border-radius: 20px;
+        }
+
+        .fb-yazi{
+            background-image: linear-gradient(to top right,rgb(31, 18, 72),rgba(255, 255, 0, 0.449),rgba(0, 0, 3, 0.608),rgba(255, 255, 0, 0.647));
+            margin-right: 50px;
+            color: #f3f4fb;
+            padding: 30px 50px;
+            padding-top: 120px;
+            font-size: x-large;
+            border-radius: 20px;
+            text-transform: uppercase;
+            font-style: bold;
+            font-family: fantasy;
+            text-shadow: 5px 5px 15px darkblue;
+        }
+
+        /* GALATASARAY BOLUMU */
+
+        .galatasaray {
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(to left bottom ,rgb(224, 239, 6),rgba(255, 17, 0, 0.552),black);
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+        .gs-yazi {
+            margin-right:50px;
+            background-image: linear-gradient(rgba(255, 0, 0, 0.593),rgba(255, 255, 0, 0.621),rgba(255, 0, 0, 0.5));
+            padding: 30px 50px;
+            padding-top: 120px;
+            border-radius: 20px;
+            font-size: x-large;
+            text-transform: uppercase;
+            font-style: bold;
+            font-family: fantasy;
+            text-shadow: 5px 5px 15px darkblue;
+            text-align: center;
+        }
+
+        /* BESİKTAS KISMI */
+
+        .besiktas {
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(to right bottom ,black,rgba(255, 255, 255, 0.671),black);
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+
+        .bjk-yazi{
+            margin-right: 50px;
+            background-image: linear-gradient(black,white);
+            padding: 30px 50px;
+            padding-top: 120px;
+            font-size: x-large;
+            text-transform: uppercase;
+            font-style: bold;
+            font-family: fantasy;
+            text-shadow: 5px 5px 15px darkblue;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            background-color: #005470;
+            width: 120px;
+            height: 50px;
+            border: 2px solid white;
+            
+        }
+        .fixed a {
+            /* position: relative;
+            left: 20px;
+            top: 20px; */
+            height: 50px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            text-shadow: 5px 5px 15px white;
+        }
+        .sticky {
+            background-color: #162028;
+            width: 100%;
+            height: 80px;
+            margin-top: 0px;
+            border: 1px groove white;
+
+            position: sticky;
+            top: 0;
+            
+        }
+        .sticky ul {
+            display: flex;
+            justify-content: space-around;
+            
+            
+        }
+       
+        .sticky li a {
+            color: #f3f4fb;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: grab;
+            /* mouse sekli değişir */
+        }
+        .sticky li a:hover {
+            transform: scale(1.5);
+            /* üzerine gelince büyür yazı */
+            background-color: #f9d253;
+            color: #1a1a25;
+            
+        }
+        .sticky li a:active {
+            color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id="yukari" class="container">
+       
+        <div class="sticky">
+            <ul>
+                <li><a href="ingiltere.html" >İngiltere</a></li>
+                <li><a href="almanya.html" >Almanya</a></li>
+                <li><a href="ispanya.html" >İspanya</a></li>
+                <li><a href="fransa.html" >Fransa</a></li>
+            </ul>
+        </div>
+
+        <h1>ÜÇ BÜYÜKLERİMİZ</h1>
+
+            <div class="fenerbahce">
+                
+                <div class="fb-yazi">
+                    <p>F</p>
+                    <p>E</p>
+                    <p>N</p>
+                    <p>E</p>
+                    <p>R</p>
+                    <p>B</p>
+                    <p>A</p>
+                    <p>H</p>
+                    <p>C</p>
+                    <p>E</p>
+                </div>
+
+                <div class="fb-image">
+                    <img src="image/fb-logo.png" alt="">
+                    <h3>Fenerbahce Tarihçesi</h3>
+                    <p>1907 yılında bir spor kulübü olarak kurulan Fenerbahçe, Türkiye futbol tarihinin en başarılı ve en çok taraftarı olan
+                         spor kulüplerinden birisidir. 3 Mayıs 1907 (115 yıl, 193 gün önce.) Süper Lig, 2. Fenerbahçe'nin toplamda 28 Türkiye şampiyonluğu 
+                         bulunmaktadır.</p>
+                         <p >
+                            Daha detaylı tarihçemiz için <a href="https://www.fenerbahce.org/kulup/tarihce" target="_blank">TIKLAYINIZ</a>
+                         </p>
+                </div>
+
+                <div class="fb-kadro">
+                    <h2>KADRO</h2>
+                    <ul>
+                        <li>Altay Bayındır <span><img src="image/fb.png" alt=""></span></li>
+                        <li>Atilla Szalai <span><img src="image/fb.png" alt=""></span></li>
+                        <li>Luan Peres <span><img src="image/fb.png" alt=""></span> </li>
+                        <li>Ferdi Kadıoğlu <img src="image/fb.png" alt=""> </li>
+                        <li>Osai-Samuel <span><img src="image/fb.png" alt=""></span> </li>
+                        <li>Miguel Crespo <span><img src="image/fb.png" alt=""></span> </li>
+                        <li> Willian Arao <span><img src="image/fb.png" alt=""></span> </li>
+                        <li>İrfancan Kahveci <span><img src="image/fb.png" alt=""></span> </li>
+                        <li>Enner Valencia <span><img src="image/fb.png" alt=""></span> </li>
+                        <li>Michy Batshuayi <span><img src="image/fb.png" alt=""></span> </li>
+                        <li>Joao Pedro <span><img src="image/fb.png" alt=""></span> </li>
+                    </ul>
+                </div>
+               
+            </div>
+
+            <div class="galatasaray">
+                <div class="gs-yazi">
+                    <p>G</p>
+                    <p>A</p>
+                    <p>L</p>
+                    <p>A</p>
+                    <p>T</p>
+                    <p>A</p>
+                    <p>S</p>
+                    <p>A</p>
+                    <p>R</p>
+                    <p>A</p>
+                    <P>Y</P>
+                </div>
+
+                <div class="gs-image">
+                    <img src="image/gs-logo.png" alt="">
+                    <h3>Galatasaray Tarihçesi</h3>
+                    <p>1905 yılında kurulan Galatasaray, günümüzde varlığını devam ettiren takımlar göz önüne alındığında ilk Türk futbol takımıdır. Bu durumun doğal sonucu 
+                        ise herhangi bir futbol liginde mücadele eden 
+                        ilk Türk takımı olma ayrıcalığına sahiptir. Bunda, Galatasaray Lisesi gibi bir kurumun içinden çıkmasının da payı vardır.</p>
+                         <p >
+                            Daha detaylı tarihçesi için <a href="https://www.galatasaray.org/sl/galatasaray-tarihi-ne-zaman-ve-kim-kurdu/3" target="_blank">TIKLAYINIZ</a>
+                         </p>
+                </div>
+
+                <div class="gs-kadro">
+                    <h2>KADRO</h2>
+                    <ul>
+                        <li>Fernando Muslera <span><img src="image/gs.png" alt=""></span></li>
+                        <li>Victor Nelsson <span><img src="image/gs.png" alt=""></span></li>
+                        <li>Abdulkerim Bardakci <span><img src="image/gs.png" alt=""></span> </li>
+                        <li>Patrick van Aanholt <img src="image/gs.png" alt=""> </li>
+                        <li>Sacha Boey<span><img src="image/gs.png" alt=""></span> </li>
+                        <li>Lucas Torreira <span><img src="image/gs.png" alt=""></span> </li>
+                        <li> Sergio Oliveira <span><img src="image/gs.png" alt=""></span> </li>
+                        <li>Milot Rashica <span><img src="image/gs.png" alt=""></span> </li>
+                        <li>Kerem Aktürkoğlu<span><img src="image/gs.png" alt=""></span> </li>
+                        <li>Dries Mertens <span><img src="image/gs.png" alt=""></span> </li>
+                        <li>Mauro Icardi <span><img src="image/gs.png" alt=""></span> </li>
+                    </ul>
+                </div>
+               
+            </div>
+
+            <div class="besiktas">
+                
+                <div class="bjk-yazi">
+                    <p>B</p>
+                    <p>E</p>
+                    <p>S</p>
+                    <p>İ</p>
+                    <p>K</p>
+                    <p>T</p>
+                    <p>A</p>
+                    <p>S</p>
+                    
+                </div>
+
+                <div class="bjk-image">
+                    <img src="image/bjk-logo.png" alt="">
+                    <h3>Beşiktas Tarihçesi</h3>
+                    <p>Bu arada Beyoğlu Mutasarrıfı Muhittin Bey'in teşvikiyle Beşiktaş Osmanlı Jimnastik Kulübü, 26 Ocak 1911 tarihinde tescil edilen ilk Türk spor kulübü oldu. Semtin gençlerinin bu spor kulübüne ilgisi büyüdü ve 
+                        spor yapan üyelerin sayısı bir anda 150'ye yükseldi.</p>
+                         <p >
+                            Daha detaylı tarihçemiz için <a href="https://bjk.com.tr/tr/cms/tarihce/2/73#:~:text=Bu%20arada%20Beyo%C4%9Flu%20Mutasarr%C4%B1f%C4%B1%20Muhittin,bir%20anda%20150%27ye%20y%C3%BCkseldi." target="_blank">TIKLAYINIZ</a>
+                         </p>
+                </div>
+
+                <div class="bjk-kadro">
+                    <h2 style="color:black;">KADRO</h2>
+                    <ul>
+                        <li>Mert Günok <span><img src="image/bjk.png" alt=""></span></li>
+                        <li>Tayyib Sanuc <span><img src="image/bjk.png" alt=""></span></li>
+                        <li>Romain Saiss <span><img src="image/bjk.png" alt=""></span> </li>
+                        <li>Arthur Masuaku<span><img src="image/bjk.png" alt=""></span> </li>
+                        <li>Valentin Rosier <span><img src="image/bjk.png" alt=""></span> </li>
+                        <li>Josef de Souza <span><img src="image/bjk.png" alt=""></span> </li>
+                        <li> Gedson Fernandes <span><img src="image/bjk.png" alt=""></span> </li>
+                        <li>Salih Uçan <span><img src="image/bjk.png" alt=""></span> </li>
+                        <li>N'Koudou<span><img src="image/bjk.png" alt=""></span> </li>
+                        <li>Rachid Ghezzal <span><img src="image/bjk.png" alt=""></span> </li>
+                        <li>Wout Weghorst <span><img src="image/bjk.png" alt=""></span> </li>
+                    </ul>
+                </div>
+               
+            </div>
+
+            <div class="fixed">
+                <a style="color:white;" href="#yukari">YUKARİ GİT</a>
+            </div>
+
+
+    </div>
+
+
+</body>
+</html>
