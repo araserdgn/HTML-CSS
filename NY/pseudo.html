@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psudeo</title>
+
+    <style>
+        p::first-letter {
+            /* ilk harf KIRMIZI yapar */
+            color: red;
+        }
+        li {
+            color: aqua;
+        }
+        ::marker {
+            /* Liste basındaki işaretin   rengi değişir */
+            color: red;
+        }
+
+        p::first-line {
+            /* 1. satırı komple boyar */
+            color: greenyellow;
+        }
+
+        p:first-child {
+            color: red;
+        }
+
+        p i:first-child {
+            /* P içindeki ilk i ye etki eder */
+            color: blue;
+        }
+
+        p::before {
+            /* P etiket basına yazar, ama SEÇEMEYİZ ayrı bir pakettr */
+            content: "Selamun Aleykum";
+        }
+
+        p::after {
+            /* P etiketi en sonuna YAZAR, SEÇEMEYİZ */
+            content: "SONLANDIII";
+            /* İçerik demek */
+        }
+
+        /* BEFORE ve AFTERDE content kullanmak ZORUNLUDUR */
+    </style>
+  </head>
+  <body>
+    <p>
+     Ed dolores veritatis assumenda molestias quis,
+      quaerat at, deleniti ea porro culpa voluptas sequi quibusdam ducimus
+      nihil. Veritatis, qui quod! Beatae, obcaecati. Dicta voluptatum delectus
+      quam nesciunt quasi. Qui modi unde assumenda architecto quis soluta fugiat
+      sint incidunt maxime dolore. Nostrum quod architecto quas ex, esse atque.
+      In soluta illo laboriosam ipsa, incidunt non similique vel est ipsum sint
+      et amet nihil dolorem excepturi suscipit ab tenetur id doloremque
+      molestiae sit modi. Cupiditate quo nisi quam consectetur? Quidem,
+    
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Odio enim excepturi 
+        ex necessitatibus <i>eligendi commodi</i> ad 
+        quidem hic. <i>Numquam exercitationem</i> beatae 
+        error porro non magnam ab in. Quam, nulla officia?</p>
+
+    <ul>
+        <li>sads</li>
+        <li>sdasdsdasfdas</li>
+        <li>sfasfsaf</li>
+    </ul>
+
+
+  </body>
+</html>
