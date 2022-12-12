@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OVERFLOW</title>
+
+    <style>
+        .container {
+            display: flex;
+            
+        }
+        .container div {
+            width: 250px;
+            height: 200px;
+            border: 1px solid black;
+            margin: 20px;
+        }
+
+        .scroll {
+            
+            overflow: scroll;
+            /* Aşagı dogru içeriğe bakarız, kaydırma yapar */
+            /*  overflow-y: böyle yaparsak sadece asagı yukarı iniş yaparz */
+
+        }
+        .hidden {
+            overflow: hidden;
+            /* taşan kısımları siler içerde kalanı gösterir */
+            /* overflow-x: scroll; sag ve sol kırptı sdece */
+
+            /* içeriğin tasan kısımları GİZLER */
+        }
+        .auto {
+            overflow: auto;
+            /* pixeli ben ayarladıgım içn ona göre ayarlar */
+        }
+        .clip {
+            overflow: clip;
+            /* içeriği keser */
+        }
+
+        .scroll::-webkit-scrollbar {
+            /* Yanda çıkan kaydırma işlemine css veriyoz */
+            width: 10px;
+            
+        }
+        .scroll::-webkit-scrollbar-thumb  {
+            /* kayan kısmın rengi */
+            background-image: linear-gradient(blue,red,purple);
+            
+            box-shadow: 0px 5px 4px black;
+            border-radius: 10px;
+            transition: 0.7s;
+        }
+        .scroll::-webkit-scrollbar-track {
+            /* Kayan kısmın yol tarafı */
+            background-color: rgba(0, 255, 255, 0.273);
+            border-radius: 10px;
+            
+        }
+        .scroll::-webkit-scrollbar-thumb:hover {
+            background-color: black;
+            transition: 1s;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+    
+    <div class="scroll">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, eius
+        ducimus doloribus omnis incidunt, voluptate quisquam ipsam aut
+        recusandae perferendis odio ratione illum impedit placeat deleniti
+        provident commodi quis libero! Veniam in soluta, porro doloribus nobis
+        pariatur, enim quisquam necessitatibus assumenda molestiae, architecto
+        aliquam aperiam atque. Reprehenderit dolores asperiores possimus tempore
+        aliquid blanditiis provident recusandae voluptatum ducimus incidunt
+        quaerat quae, beatae quisquam corrupti ut? Obcaecati, doloremque
+        veritatis placeat eum voluptatibus odit omnis reiciendis ratione
+        doloribus hic distinctio accusamus at molestiae saepe commodi? Commodi
+        suscipit odio sunt molestias blanditiis autem vero, magnam at ad, rerum
+        unde aliquid labore laudantium quas reprehenderit?
+      </p>
+    </div>
+
+    <div class="hidden">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vel,
+        hic ullam ut minus molestiae aliquam sit temporibus iste, cumque totam!
+        Maxime dolor quia voluptas aut! Amet, accusamus veritatis cumque
+        architecto voluptas fugiat doloremque explicabo delectus laborum
+        perspiciatis ut labore optio harum rerum quos expedita officia? Delectus
+        hic minus aspernatur aut veniam unde aliquid iure quae quas voluptatibus
+        non ipsum dicta cupiditate eveniet eligendi corporis, natus atque
+        reprehenderit vitae facilis tempore fuga pariatur molestiae eum!
+        Voluptatem quasi id deleniti nobis minima numquam amet exercitationem
+        reprehenderit qui, voluptates aliquid dolore fugiat rerum necessitatibus
+        sapiente ipsam voluptatum modi commodi similique eos esse.
+      </p>
+    </div>
+
+    <div class="auto">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vel,
+          hic ullam ut minus molestiae aliquam sit temporibus iste, cumque totam!
+          Maxime dolor quia voluptas aut! Amet, accusamus veritatis cumque
+          architecto voluptas fugiat doloremque explicabo delectus laborum
+          perspiciatis ut labore optio harum rerum quos expedita officia? Delectus
+          hic minus aspernatur aut veniam unde aliquid iure quae quas voluptatibus
+          non ipsum dicta cupiditate eveniet eligendi corporis, natus atque
+          reprehenderit vitae facilis tempore fuga pariatur molestiae eum!
+          Voluptatem quasi id deleniti nobis minima numquam amet exercitationem
+          reprehenderit qui, voluptates aliquid dolore fugiat rerum necessitatibus
+          sapiente ipsam voluptatum modi commodi similique eos esse.
+        </p>
+      </div>
+
+      <div class="clip">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente vel,
+          hic ullam ut minus molestiae aliquam sit temporibus iste, cumque totam!
+          Maxime dolor quia voluptas aut! Amet, accusamus veritatis cumque
+          architecto voluptas fugiat doloremque explicabo delectus laborum
+          perspiciatis ut labore optio harum rerum quos expedita officia? Delectus
+          hic minus aspernatur aut veniam unde aliquid iure quae quas voluptatibus
+          non ipsum dicta cupiditate eveniet eligendi corporis, natus atque
+          reprehenderit vitae facilis tempore fuga pariatur molestiae eum!
+          Voluptatem quasi id deleniti nobis minima numquam amet exercitationem
+          reprehenderit qui, voluptates aliquid dolore fugiat rerum necessitatibus
+          sapiente ipsam voluptatum modi commodi similique eos esse.
+        </p>
+      </div>
+
+      <!-- Dİv , overflow olarak geldiği değeri VİSİBLE (default degeri) -->
+  </div>
+</body>
+</html>
