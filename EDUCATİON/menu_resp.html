@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Ornek</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        nav {
+            background-color: blueviolet;
+            
+        }
+        nav ul {
+            margin: 0;
+            /* sayfa üstünde bosluk gitsin diye */
+            list-style-type: none;
+            
+        }
+        nav ul li {
+            display: inline-block;
+            padding: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        @media screen and (max-width:600px) {
+            nav ul li {
+                display: block;
+                text-align: center;
+            }
+            nav ul {
+                background-color: aquamarine;
+            }
+          
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Anasayfa</a></li>
+            <li><a href="#">Hakkımızda</a></li>
+            <li><a href="#">İletişim</a></li>
+        </ul>
+    </nav>
+
+    
+</body>
+</html>

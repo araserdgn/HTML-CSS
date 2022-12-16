@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animasyon ÖRnek</title>
+
+    <style>
+        body,html {
+            margin: 0;
+            height: 100%;
+        }
+        div {
+            background-image: linear-gradient(to right,red,pink,purple);
+            height: 50%;
+            background-size: 200%;
+            background-position: 100%;
+            /* sonunu gösterir böyle yaparsak */
+            animation: gecis 4s  1s infinite alternate;
+        }
+        @keyframes gecis {
+            from {
+                background-position: 0;
+                /* baslangıc gösterir */
+            }
+            to {
+                background-position: 100%;
+            /* sonunu gösterir böyle yaparsak */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div"></div>
+    
+</body>
+</html>
